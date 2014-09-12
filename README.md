@@ -1,4 +1,4 @@
 GEHISCLI
 ========
 
-Sistema de toma de decisiones que permita la gestion de historial clinico en tiempo real.
+Sistema de informacion gerencial para la GEstion del HIStorial CLInico.
