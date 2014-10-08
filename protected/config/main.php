@@ -4,6 +4,8 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'GEHISCLI',
+	'language' => 'es',
+	'theme'=>'abound',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -40,7 +42,7 @@ return array(
 			),
 		),
 		'db'=>array(
-			'connectionString' => 'pgsql:host=127.0.0.1 ;port=5432 ;dbname= gehiscli ',
+			'connectionString' => 'pgsql:host=127.0.0.1;port=5432;dbname=gehiscli',
    			'username' => 'postgres',
    			'password' => 'postgres',
    			'charset' => 'utf8',
@@ -56,20 +58,14 @@ return array(
 					'class'=>'CFileLogRoute',
 					'levels'=>'error, warning',
 				),
-				// uncomment the following to show log messages on web pages
-				/*
 				array(
 					'class'=>'CWebLogRoute',
 				),
-				*/
 			),
 		),
 	),
 
-	// application-level parameters that can be accessed
-	// using Yii::app()->params['paramName']
 	'params'=>array(
-		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
 	),
 );
