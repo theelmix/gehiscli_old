@@ -1,4 +1,7 @@
-
+--
+-- Nombre: persona 
+-- Desc: 
+--
 CREATE TABLE "persona" (
 	"persona_id" bigint serial NOT NULL,
 	"fecha_registro" timestamp with time zone DEFAULT '01-01-0001 00:00:00',
@@ -47,3 +50,8 @@ CREATE TABLE "persona" (
 	"creado_fecha" bigint DEFAULT '0',
 	Constraint "persona_pkey" Primary Key ("persona_id")
 );
+
+--
+-- Nombre:  
+-- Desc: 
+--
